@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)http://localhost/landingpageprojectkebumen/#home -->
+<html lang="id"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Genteng Sokka Kebumen Berkah</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index_files/style.css">
+
+    <style>
+   /* Reset & Font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f6f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navbar */
+nav {
+  background-color: #45502cff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #1abc9c;
+  text-decoration: underline;
+}
+
+/* Container */
+.container {
+  max-width: 1100px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+/* Section Titles */
+h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #2c3e50;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Paragraph */
+p {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #555;
+}
+
+strong {
+  font-weight: bold;
+  color: #222;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* Button */
+a.button {
+  display: inline-block;
+  margin: 15px 10px;
+  padding: 12px 24px;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 4px 12px rgba(52, 152, 219, 0.2);
+}
+
+a.button:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}
+
+/* Produk Grid */
+.produk-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.produk {
+  background-color: #fdfdfd;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
+
+.produk:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+}
+
+.produk img {
+  width: 90%;
+  margin-bottom: 12px;
+  transition: transform 0.3s ease;
+}
+
+.produk:hover img {
+  transform: scale(1.05);
+}
+
+.produk p {
+  font-size: 15px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.produk strong {
+  font-size: 17px;
+  color: #2c3e50;
+  margin-top: 8px;
+  display: block;
+}
+
+/* Map Section */
+#map {
+  margin-top: 30px;
+  border-radius: 16px;
+  overflow: hidden;
+  height: 400px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  background-color: #ecf0f1;
+  color: #555;
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+
+  .container {
+    padding: 25px 20px;
+  }
+
+  .produk-container {
+    grid-template-columns: 1fr;
+  }
+
+  a.button {
+    padding: 10px 18px;
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+}
+
+
+
+    </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+    <a href="http://localhost/landingpageprojectkebumen/#home">Home</a>
+    <a href="http://localhost/landingpageprojectkebumen/#about">Tentang</a>
+    <a href="http://localhost/landingpageprojectkebumen/#produk">Produk</a>
+    <a href="http://localhost/landingpageprojectkebumen/#contact">Kontak</a>
+</nav>
+
+<!-- Home -->
+<div class="container" id="home">
+    <h2>Biografi Toko</h2>
+    <img src="./index_files/gs.jpeg" alt="Foto Toko">
+    <p><strong>Nama Toko:</strong> Genteng Sokka Kebumen Berkah</p>
+    <p><strong>Alamat:</strong> Dukuh Jatisalam RT.12 RW.03, Desa Jatisari, Kabupaten, Kec. Kebumen, Kabupaten Kebumen, Jawa Tengah 54317</p>
+    <a class="button" href="https://wa.me/087725992486">Hubungi via WhatsApp</a>
+</div>
+
+<!-- About -->
+<div class="container" id="about">
+    <h2>Tentang Kami</h2>
+    <p>Genteng Sokka Kebumen Berkah adalah toko yang menjual berbagai jenis genteng berkualitas tinggi untuk keperluan bangunan Anda. Kami mengutamakan kepuasan pelanggan dengan menawarkan produk-produk terbaik, anti bocor, anti rembes, kokoh, tahan injak, dan awet hingga anak cucu Anda untuk solusi atap bangunan adem Anda.</p>
+</div>
+
+<!-- Produk -->
+<div class="container" id="produk">
+    <h2>Produk Genteng Kami</h2>
+    <div class="produk-container">
+                    <div class="produk">
+                <img src="./index_files/12.jpeg" alt="Genteng">
+                <p>Genteng tanah liat berbentuk kodok dengan pola penguncian yang kuat.</p>
+                <p><strong>Harga:</strong> Rp 2.300/Biji</p>
+            </div>
+                    <div class="produk">
+                <img src="./index_files/Plentong Papak.jpeg" alt="Genteng">
+                <p>Genteng plentong papak, tahan lama dan elegan.</p>
+                <p><strong>Harga:</strong> Rp 1.600/Biji</p>
+            </div>
+                    <div class="produk">
+                <img src="./index_files/plentong bulat.jpeg" alt="Genteng">
+                <p>Genteng plentong bulat dengan berbagai pilihan warna menarik.</p>
+                <p><strong>Harga:</strong> Rp 1.600/Biji</p>
+            </div>
+                    <div class="produk">
+                <img src="./index_files/magas.jpeg" alt="Genteng">
+                <p>Genteng Sokka Magas Kebumen, kualitas super no.1, tahan injak. Ukuran: 29cm x 23cm x 1,5cm.</p>
+                <p><strong>Harga:</strong> Rp 1.800/Biji</p>
+            </div>
+                    <div class="produk">
+                <img src="./index_files/morando.jpeg" alt="Genteng">
+                <p>Genteng Morando berkualitas tinggi.</p>
+                <p><strong>Harga:</strong> Rp 2.850/Biji</p>
+            </div>
+                    <div class="produk">
+                <img src="./index_files/wuwung bulat.jpeg" alt="Genteng">
+                <p>Wuwung bulat untuk atap yang lebih elegan.</p>
+                <p><strong>Harga:</strong> Rp 5.000/Biji</p>
+            </div>
+                    <div class="produk">
+                <img src="./index_files/wuwung lancip.jpeg" alt="Genteng">
+                <p>Wuwung lancip tahan cuaca ekstrem.</p>
+                <p><strong>Harga:</strong> Rp 5.000/Biji</p>
+            </div>
+                    <div class="produk">
+                <img src="./index_files/wuwung papak.jpeg" alt="Genteng">
+                <p>Wuwung papak desain modern.</p>
+                <p><strong>Harga:</strong> Rp 5.500/Biji</p>
+            </div>
+                    <div class="produk">
+                <img src="./index_files/3.jpeg" alt="Genteng">
+                <p>Genteng premium kualitas terbaik.</p>
+                <p><strong>Harga:</strong> Rp 4.900/Biji</p>
+            </div>
+                    <div class="produk">
+                <img src="./index_files/2.jpeg" alt="Genteng">
+                <p>Genteng super awet dan kuat.</p>
+                <p><strong>Harga:</strong> Rp 5.900/Biji</p>
+            </div>
+                    <div class="produk">
+                <img src="./index_files/morando glazur jatiwangi.jpeg" alt="Genteng">
+                <p>Genteng Morando Glazur Jatiwangi dengan lapisan glossy.</p>
+                <p><strong>Harga:</strong> Rp 4.500/Biji</p>
+            </div>
+            </div>
+</div>
+
+<!-- Contact -->
+<div class="container" id="contact">
+    <h2>Kontak Kami</h2>
+    <p>Telepon: 087725992486 | Email: gentengsokka@gmail.com</p>
+    <div id="map">
+        <iframe src="./index_files/embed.html" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</div>
+
+<footer>
+    © 2025 Genteng Sokka Kebumen Berkah. All rights reserved.
+</footer>
+
+
+
+</body></html>
